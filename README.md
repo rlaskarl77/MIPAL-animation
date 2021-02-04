@@ -11,7 +11,6 @@ MIPAL 2020-Winter Internship Project
 - 두 장의 애니메이션 이미지로부터 부드러운 연속적 Sequence of Images 생성
 
 
-
 ### Formulation
 
 1. 두 장의 이미지 X_1, X_m를 Feature Space로 인코딩 (pretrained VGG, Inception, ResNET): Z_1, Z_m
