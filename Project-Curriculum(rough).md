@@ -15,5 +15,8 @@
   - StyleGAN 읽기 (https://arxiv.org/abs/1812.04948)
   - Pytorch Tutorial part 2 해오기 (https://tutorials.pytorch.kr/beginner/dcgan_faces_tutorial.html)
 - 02/15~ 
-  - 공부 끝. 빡일!
+  - 프로그래밍 연습 (HTML 파일 참조)
+    - Spectral Normalization (SNGAN)
+    - ResNet
+    - SLEGAN
 
