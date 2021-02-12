@@ -6,7 +6,11 @@
 
 - VGG Encoder: Pretrained VGG16 from torchvision.models (마지막 conv layer까지 freeze)
 - Trained on Tom&Jerry Dataset exclusively. 30K images, 8 images in sequence
+- Spherical Linear Interpolate 1st and 8th image, generate 8 images
+  - 1st & 8th = reconstruction task (supervised)
+  - 2nd~6th = generation task (Discriminator inspects fidelity)
 - D: Hinge Loss + L1 reconstruction loss
+  - Single Discriminator used for simplicity (for now): NO sequence discriminator.
 - G: Hinge Loss + L1 reconstruction loss (1st and 8th)
 - Adam with default hyper params (lr=0.001, betas=(0.9, 0.999))
 - batch_size = 8 (fill in mid 6 images)
