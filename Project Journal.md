@@ -25,3 +25,24 @@
 
 - Mode Collapse after 10K iterations
   - ![image-20210212164319966](C:\Users\rin46\AppData\Roaming\Typora\typora-user-images\image-20210212164319966.png)
+
+
+
+### 2. Feasibility Check: random screenshot 생성 가능한가?
+
+- Tom&Jerry + LionKing Shuffled
+- Gaussian Random Noise --> Generator
+- Spectral Normalization Used
+
+(1) latent dimension 256
+
+- Gaussian Random Noise of dim 256
+- Adam, lr=0.0002, betas=(0.5, 0.999)
+- Diverge after 42K iterations
+
+![image-20210213074619149](C:\Users\rin46\AppData\Roaming\Typora\typora-user-images\image-20210213074619149.png)
+
+(2) latent dimension 1024
+
+- Perhaps the data distribution is too complex, compared to CelebA-HQ or neat Anime face dataset.
+- Higher dim to represent higher dim data manifold
