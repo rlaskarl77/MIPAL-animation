@@ -59,6 +59,29 @@
   - 하지만 애니메이션의 장면들을 생성해내는데는 성공
 - 추가적인 Loss Function 통해 Fine Tuning 학습
   - 아이디어 #1: L1 Loss를 통해 개별 이미지끼리 비교
+    - 어느정도 되긴 되나, 물체의 위치 변화 등을 자연스럽게 표현하지 못함(Fade In, Fade Out 시킴)
   - 아이디어 #2: 3D conv 이용하는 Discriminator 통해 sequence의 매끄러움 판별
-- (Issue) Image의 변화를 현재는 Fade In/Out 으로 표현 => Object의 움직임을 표현해낼 수 있도록
-- (Issue) 새로운 Dataset에 대해 했을 때에도 잘 작동하는지 확인 (Validation Set Approach)
+
+
+
+- **개선** (02/16)
+  - 모델을 더 크고 깊게
+    - 각 spatial resolution 별로 Residual Block을 추가
+    - 더 낮은(추상적) 차원까지 compress 한 뒤 복원하는 방법
+  - Loss Function에 변화
+    - Adversarial Loss 사용
+    - Encoder가 real image들을 압축한 latent code가 양끝 이미지의 latent code의 lerp와 같아지도록 L1 Loss 추가
+    - 잔상에 Penality를 주는 방법 - How?
+  - **AED+Adv**
+    - 더 깊게
+      - 256 -> 32까지 차원 축소 (3 x 256 x 256 -> 128 x 32 x 32)
+      - Residual Blocks + SLE Module 추가
+    - Loss Function 변화
+      - 3D Conv로 이루어진 Discriminator 추가 -> Sequence의 참/거짓 판별하도록
+      - 10 x recon_loss + adv_loss 로 generator update
+    - 문제
+      - 이미지가 날카로운 엣지를 잃어버림 -> 부드럽고 둔해짐
+    - 개선
+      - Image별로 Discriminator 추가한다
+      - CartoonGAN처럼 날카로운 엣지를 위한 discriminator loss 추가한다
+      - 하나의 네트워크를 추가하여 흐려진 이미지를 다시 날카롭게 한다. (Refinement / Super-resolution)
