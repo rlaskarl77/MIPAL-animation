@@ -37,11 +37,13 @@
 
 ### Qualitative Results
 
-<img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1093.gif" width="120" height="120"/>
-<img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1265.gif" width="120" height="120"/>
-<img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1357.gif" width="120" height="120"/>
-<img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1429.gif" width="120" height="120"/>
-<img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1473.gif" width="120" height="120"/>
-<img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1545.gif" width="120" height="120"/>
-<img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1573.gif" width="120" height="120"/>
-<img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1709.gif" width="120" height="120"/>
+<p float="left">
+  <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1093.gif" width="180" height="180"/>
+  <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1265.gif" width="180" height="180"/>
+  <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1357.gif" width="180" height="180"/>
+  <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1429.gif" width="180" height="180"/>
+  <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1473.gif" width="180" height="180"/>
+  <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1545.gif" width="180" height="180"/>
+  <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1573.gif" width="180" height="180"/>
+  <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1709.gif" width="180" height="180"/>
+</p>
