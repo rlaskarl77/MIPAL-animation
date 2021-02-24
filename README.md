@@ -38,3 +38,10 @@
 ### Qualitative Results
 
 ![gif1](https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1093.gif)
+![gif1](https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1265.gif)
+![gif1](https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1357.gif)
+![gif1](https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1429.gif)
+![gif1](https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1473.gif)
+![gif1](https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1545.gif)
+![gif1](https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1573.gif)
+![gif1](https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1709.gif)
