@@ -44,7 +44,7 @@
   <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1265.gif" width="180" height="180"/>
   <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1357.gif" width="180" height="180"/>
   <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1429.gif" width="180" height="180"/>
-  <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1473.gif" width="180" height="180"/>
+<!--   <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1473.gif" width="180" height="180"/> -->
   <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_705.gif" width="180" height="180"/>
   <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1709.gif" width="180" height="180"/>
   <img src="https://github.com/reyllama/MIPAL-animation/blob/master/output/G1_1721.gif" width="180" height="180"/>
