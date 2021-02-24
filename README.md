@@ -58,5 +58,5 @@
 ### Quantitative Results
 
 MODEL             |  Simple AutoEncoder     |   Deeper AutoEncoder   | AutoEncoder with 3D Conv | 2 stage with FracConv | Final
-:-------------------------:|:-------------------------:
+:-------------------------:|:-------------------------:|:------------:|:----------:|:---------------:|-------------:
 FID score  | 50.044 | 50.637 | 52.866 | 51.531 | 51.197
