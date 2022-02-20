@@ -1,6 +1,6 @@
 *.pt
 !best.pt
-models/
+.models/
 data/*.zip
 .ipynb_checkpoints/
 .vscode/
