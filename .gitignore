@@ -1,0 +1,6 @@
+data/models/
+models/
+!best.pt
+.ipynb_checkpoints/
+.vscode/
+runs/
